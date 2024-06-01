@@ -1,0 +1,31 @@
+.date-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.calendar-day {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.calendar-day.selected {
+  background-color: #blue;
+  color: white;
+}
+
+.birthday-list {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+}
